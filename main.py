@@ -44,7 +44,7 @@ def main():
                 pygame.quit()
             for bullet in bullets:
                 if obj.collision(bullet) == True:
-                    obj.split()
+                    obj.split ()
                     bullet.kill()
         for obj in drawable:
             obj.draw(screen)
